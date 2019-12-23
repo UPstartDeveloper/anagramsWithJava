@@ -13,7 +13,7 @@
    * https://www.hackerrank.com/challenges/java-anagrams/problem?isFullScreen=true
    */
 
-import java.util.Scanner;
+import java.util.*;
 
 public class Solution {
 
@@ -23,6 +23,21 @@ public class Solution {
      */
      public static boolean wordLengthMatch(String a, String b) {
          return a.length == b.length;
+     }
+
+     /*
+      * Pre: String word
+      * Post: an ArrayList<char> letters storing the characters that
+      *       make up word
+      */
+     public static ArrayList<char> makeLetterCollection(String word) {
+         ArrayList<char> letters = new ArrayList<char>();
+
+         for(char letter: word){
+             letters.add(letter);
+         }
+
+         return letters;
      }
 
 
