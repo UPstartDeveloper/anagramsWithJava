@@ -61,6 +61,14 @@ public class Solution {
             }
         } while (word1.size() > 0);
    }
+    /*
+     * Pre: ArrayList word 1, nd ArrayList 2 storing char
+     * Post: Boolean storing if both ArrayLists are emptied out
+     */
+    public static boolean checkBothEmpty(ArrayList<char> word1,
+                                         ArrayList<char> word2){
+        return (word1.size() == 0 && word2.size() == 0);
+    }
 
 
     /*
