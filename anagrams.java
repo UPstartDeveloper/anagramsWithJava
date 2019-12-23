@@ -1,18 +1,7 @@
-/* The purpose of this Hacker Rank challenge is to write a method that,
- * given two Strings, can determine if those Strings are anagrams.
- * An anagram is any word which has all the same letters as another word, in the
- * same amounts as the other word, but may
- * or may not have them spelled the same way.
- * /
-
- /* For a full description of this problem, and more challenges from Hacker Rank,
-  * check out https://www.hackerrank.com/challenges/java-anagrams/problem?isFullScreen=true
-  */
-
-  /* Credit for the starter code, including the main method and the declaration
-  * of the isAnagram method, belongs to Hacker Rank, at
-   * https://www.hackerrank.com/challenges/java-anagrams/problem?isFullScreen=true
-   */
+/* Credit for the starter code, which includes the main method and the declaration
+ * of the isAnagram method, belongs to Hacker Rank, at
+ * https://www.hackerrank.com/challenges/java-anagrams/problem?isFullScreen=true
+ */
 
 import java.util.*;
 
