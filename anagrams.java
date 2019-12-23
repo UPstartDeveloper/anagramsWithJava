@@ -77,7 +77,24 @@ public class Solution {
      * a and b are anagrams
      */
     public static boolean isAnagram(String a, String b) {
-        // Complete the function
+        // if both Strings not same length, return False
+        if !(wordLengthMatch(a, b)) {
+            return False;
+        } else {
+            // make ArrayLists of both String, to isoloate char
+            word1 = makeLetterCollection(a);
+            word2 = makeLetterCollection(b);
+
+            // remove chars held in common in both ArrayList
+            removeCommonLetters(word1, word2);
+
+            // make sure no letters remaining, after all common are removed
+            if (checkBothEmpty(word1, word2)) {
+                return True;
+            } else {
+                return False;
+            }
+        }
      }
 
    public static void main(String[] args) {
