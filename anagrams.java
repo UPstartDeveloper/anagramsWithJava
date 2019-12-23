@@ -17,7 +17,21 @@ import java.util.Scanner;
 
 public class Solution {
 
-    static boolean isAnagram(String a, String b) {
+    /*
+     * Pre: String a and String break;
+     * Post: Boolean stores whether a and b have the same number of char
+     */
+     public static boolean wordLengthMatch(String a, String b) {
+         return a.length == b.length;
+     }
+
+
+    /*
+     * Pre: String a and String b
+     * Post: Boolean that determines whether or not
+     * a and b are anagrams
+     */
+    public static boolean isAnagram(String a, String b) {
         // Complete the function
      }
 
